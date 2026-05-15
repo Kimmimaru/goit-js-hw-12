@@ -48,6 +48,7 @@ loadMoreButton.addEventListener('click', async () => {
 
 async function fetchImages() {
   showLoader();
+  hideLoadMoreButton();
 
   try {
     const data = await getImagesByQuery(currentQuery, currentPage);

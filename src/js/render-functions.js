@@ -5,7 +5,7 @@ const galleryElement = document.querySelector('.js-gallery');
 const loaderElement = document.querySelector('.js-loader');
 const loadMoreButton = document.querySelector('.js-load-more');
 
-const lightbox = new SimpleLightbox('.gallery a', {
+const lightbox = new SimpleLightbox('.js-gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
